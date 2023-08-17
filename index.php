@@ -98,7 +98,7 @@
 
         <div class="d-flex aling-items-center justify-content-between mb-2">
         <button type"submit" class="btn btn-dark shadow-none">LOGIN</button>
-        <a href="javascript: void(0)" class="text-secondary text-decoration-none"> Forgot Password?</a>
+        <a href="javascript: void(0)" class="text-secondary text-decoration-none"> You are forgot Password?</a>
       </div>
 
 
