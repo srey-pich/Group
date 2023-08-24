@@ -60,25 +60,28 @@
       </ul>
       <form class="d-flex" role="search">
         <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-        <button class="btn btn-outline-success" type="submit">Search</button><!-- ប៊ុតុងស្វែងរក -->
-        
+        <button class="btn btn-outline-success me-lg-2 me-3" type="submit">Search</button><!-- ប៊ុតុងស្វែងរក -->
+        </button>
         <button type="button" class="btn btn-outline-dark shadow-none me-lg-2 me-3" data-bs-toggle="modal" data-bs-target="#loginModel">
          Login  <!-- ប៊ុតុងចូលប្រើប្រាស់ -->
+        </button>
+         <button type="button" class="btn btn-outline-dark shadow-none me-lg-2 me-3" data-bs-toggle="modal" data-bs-target="#registerModel">
+         Register  <!-- ប៊ុតុងចុះឈ្មោះ -->
+        </button>
         </form>
-      </button>
     </div>
   </div>
 </nav>
 
 <div class="modal fade" id="loginModel" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="loginModelLabel" aria-hidden="true">
-  <div class="modal-dialog">
+<div class="modal-dialog">
     <div class="modal-content">
 
       <form action="">
       <div class="modal-header">
         <h5 class="modal-title-title d-flex aling-items-center">
           <i class="bi bi-person-circle fs-3 me-2"></i>
-          User Login <!-- ឈ្មោះផ្ទាំងចូលប្រើប្រាស់ -->
+          User Login <!-- Logoផ្ទាំងចូលប្រើប្រាស់ -->
         </h5>
         <button type="reset" class="btn-close shadow-none" data-bs-dismiss="modal" aria-label="Close"></button>
       </div>
@@ -98,10 +101,8 @@
 
         <div class="d-flex aling-items-center justify-content-between mb-2">
         <button type"submit" class="btn btn-dark shadow-none">LOGIN</button>
-        <a href="javascript: void(0)" class="text-secondary text-decoration-none"> You are forgot Password?</a>
+        <a href="javascript: void(0)" class="text-secondary text-decoration-none"> Forgot Password?</a>   
       </div>
-
-
       </div>
       <!-- <div class="modal-footer">
         <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
@@ -112,7 +113,48 @@
     </div>
   </div>
 </div>
-Scroll
+<div class="modal fade" id="registerModel" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="registerModelLabel" aria-hidden="true">
+  <div class="modal-dialog modal-lg">
+    <div class="modal-content">
+
+      <form action="">
+      <div class="modal-header">
+        <h5 class="modal-title-title d-flex aling-items-center">
+        <i class="bi bi-person-lines-fill fs-3 me-2"></i>
+          User Registeration <!-- Logoផ្ទាំងចូលប្រើប្រាស់ -->
+        </h5>
+        <button type="reset" class="btn-close shadow-none" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <!--ផ្អាំងបញ្ចូល email-->
+      <div class="mb-3">
+        <label class="form-label">Email address</label>
+        <input type="email" class="form-control shadow-none">
+        <!-- <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div> -->
+        </div> 
+
+        <!--ផ្អាំងបញ្ចូល password-->
+        <div class="mb-4">
+        <label class="form-label">Password</label>
+        <input type="Password" class="form-control shadow-none">
+        </div>
+
+        <div class="d-flex aling-items-center justify-content-between mb-2">
+        <button type"submit" class="btn btn-dark shadow-none">Register</button>
+        <a href="javascript: void(0)" class="text-secondary text-decoration-none"> Forgot Password?</a>   
+      </div>
+      </div>
+      <!-- <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Understood</button>
+      </div> -->
+      </form>
+
+    </div>
+  </div>
+</div>
+</div>
+
 
 
 
